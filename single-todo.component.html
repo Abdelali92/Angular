@@ -1,0 +1,13 @@
+
+<p *ngIf="!todo">{{erreur}}</p>
+
+<div class="card" style="width: 18rem;">
+  <img [src]="todo.image" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{todo.name}}</h5>
+    <p class="card-text">Projet de réalisation de smart home</p>
+
+  </div>
+
+</div>
+<button type="button" class="btn btn-primary" routerLink="/todo">Retour</button>
